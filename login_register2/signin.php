@@ -1,24 +1,11 @@
 <?php
     include 'inc/header.php';
-    include 'User.php';
 ?>
 
-<?php
-    $user = new User();
-    if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['signin'])) {
-        $usersignin = $user->usersignin($_POST);
-    }
-?>
     <div class="signin_page">
             <h2>Tranding Fashion</h2>
             <form action="" method="post">
                 <h3>Create an account</h3>
-
-<?php
-    if (isset($usersignin)) {
-        echo $usersignin;
-    }
-?>
                 <div class="signin_form">
                     <div class="fname">
                         <label for="fname">First Name</label>
