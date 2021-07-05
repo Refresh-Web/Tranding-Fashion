@@ -1,8 +1,4 @@
-<?php
-    include 'inc/header.php';
-    include 'User.php';
-    $user = new User();
-?>
+
     <div class="langing_page" id="langing_page">
         <header>
             <div class="navbar">
