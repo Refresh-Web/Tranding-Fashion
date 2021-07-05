@@ -1,4 +1,6 @@
-
+<?php
+    include 'inc/header.php';
+?>
     <div class="langing_page" id="langing_page">
         <header>
             <div class="navbar">
