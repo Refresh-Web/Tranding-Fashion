@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.langing_page{
+    width: 100%;
+    height: 100vh;
+    background: url(assetes/new.jpg);
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 130px;
+    background: linear-gradient(to top, rgba(51, 51, 51, 0.089), rgb(22, 22, 22));
+}
+header .navbar .logo h2{
+    color: white;
+    font-size: 35px;
+    padding: 25px 55px;
+    font-family: 'Cinzel', serif;
+}
+.navbar .menu{
+    padding: 0 38px;
+}
+.navbar .menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+    margin: 10px 20px;
+    transition: all 0.4s ease;
+}
+.navbar .menu a:hover{
+    color: tomato;
+}
+
+.shoe, .tshirt{
+    padding: 60px 60px;
+    background: #fffbfd8a;
+}
+.shoe .main{
+    background: #463a4133;
+    padding: 40px 70px;
+    height: 80vh;
+}
+.tshirt .main{
+    padding: 40px 70px;
+    height: 80vh;
+    background: #6db6fa33;
+}
+.shoe .main .left{
+    width: 73%;
+    float: left;
+}
+.shoe .main .right{
+    width: 27%;
+    float: right;
+}
+.shoe .main .left h2{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.shoe .main .left p{
+    width: 650px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+.shoe .main .left .owl-carousel{
+    width: 80%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.shoe .main .right img{
+    width: 300px;
+    height: 414px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(24, 18, 27, 0.315);
+}
+.tshirt .main .left{
+    float: left;
+    width: 27%;
+}
+.tshirt .main .left img{
+    width: 300px;
+    height: 414px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(24, 18, 27, 0.315);
+}
+.tshirt .main .right{
+    width: 73%;
+    float: right;
+}
+.tshirt .main .right h2{
+    font-size: 25px;
+    padding: 20px 0px;
+    margin-left: 27.5em;
+}
+.tshirt .main .right p{
+    width: 650px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    text-align: right;
+    float: right;
+}
+.tshirt .main .right .owl-carousel{
+    float: right;
+    width: 85%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+footer{
+    width: 100%;
+    height: 250px;
+    background: #353535;
+    display: flex;
+}
+footer .col1{
+    width: 35%;
+}
+footer .col1 h2{
+    color: white;
+    font-size: 35px;
+    padding: 30px 0px;
+    font-family: 'Cinzel', serif;
+    margin-left: 55px;
+}
+footer .col1 .icon{
+    padding-left: 55px;
+}
+footer .col1 .icon a{
+    color: white;
+    font-size: 22px;
+    margin-right: 20px;
+}
+footer .col1 p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 4em;
+    font-size: 15px;
+    margin-left: 3.7em;
+}
+footer .col2{
+    width: 30%;
+    margin-top: 30px;
+}
+footer .col2 a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    display: block;
+    margin: 14px 0px;
+    margin-left: 20px;
+}
+footer .col3{
+    width: 35%;
+}
+footer .col3 .text{
+    margin-top: 5em;
+    margin-left: -3em;
+}
+footer .col3 .text h3{
+    color: white;
+    margin-left: 4em;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+footer .col3 .text a{
+    color: white;
+    text-decoration: none;
+    margin-left: 6.5em;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 20px;
+}
+footer .col3 .text a:hover{
+    color: rgb(121, 188, 251);
+}
+footer .col3 .top{
+    margin-top: 2.5em;
+    margin-left: 23.5em;
+}
+footer .col3 .top a{
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 5px 12px;
+}
+
+/* LOGIN PAGE DESIGN */
+.login_page{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #def7ec98;
+}
+.login_page .main_login_page{
+    width: 60%;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #a4c4b5;
+    border-radius: 0px 90px 0px 90px;
+}
+.main_login_page .login_page_left{
+    width: 50%;
+    height: 80vh;
+    background: url(assetes/login_img.jpg);
+    background-size: cover;
+    float: left;
+    border-radius: 10px 0px 0px 90px;
+}
+.login_page_right{
+    margin-top: 60px;
+}
+.login_page_right h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.login_page_right .tabs{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.login_page_right .tabs a{
+    color: #fff;
+    text-decoration: none;
+}
+.login_page_right .tabs a:hover{
+    color: #f0fbf6;
+}
+.login_page_right form{
+    text-align: center;
+}
+.login_page_right form .login_form .email label{
+    margin-right: 11em;
+}
+.login_page_right form .login_form label{
+    color: #fff;
+    display: block;
+    margin-right: 9em;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.login_page_right form .email input, .login_page_right form .pass input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-right: -10px;
+    padding: 3px 0px;
+    width: 290px;
+}
+.login_page_right form .email input::placeholder, 
+.login_page_right form .pass input::placeholder{
+    color: #f6fff3;
+}
+.login_page_right form input[type="submit"]{
+    padding: 10px 30px;
+    background: #fff;
+    color: #7a7e79;
+    border: 1px solid #858984;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.login_page_right form input[type="submit"]:hover{
+    color: #4f524f;
+}
+
+/* SIGNIN PAGE AND PROFILE PAGE AND SOME CHANGE_PASS DESIGN */
+.signin_page h2, .profile_page h2, .change_pass_page h2{
+    text-align: center;
+    font-size: 40px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    color: #3e413e;
+    font-family: 'Cinzel', serif;
+}
+.signin_page form, .profile_page form, .change_pass_page form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70vh;
+}
+.signin_page form h3, .profile_page form h3, .change_pass_page form h3{
+    text-align: center;
+    font-size: 23px;
+    letter-spacing: -1.2px;
+    color: #444744;
+    padding-bottom: 20px;
+}
+.signin_page form .signin_form, .profile_page form .profile_form, .change_pass_page form .change_pass_form{
+    padding-top: 40px;
+    padding-left: 3.4em;
+}
+.signin_page form .signin_form .fname, .gmail, .country, .city,
+.profile_page form .profile_form .p_fname, .p_gmail, .p_city{
+    float: left;
+    margin-right: 4em;
+}
+.signin_page form .signin_form label, .profile_page form .profile_form label, .change_pass_page form .change_pass_form label{
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+.signin_page form .signin_form input, .profile_page form .profile_form input{
+    margin-bottom: 20px;
+}
+.signin_page form .signin_form input[type="text"], input[type="password"],
+.profile_page form .profile_form input[type="text"]{
+    width: 400px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #75c5a3;
+    font-size: 14px;
+    padding: 6px 0px;
+    color: #5d615d;
+}
+.signin_page form .signin_form input::placeholder, .profile_page form .profile_form input::placeholder{
+    color: #bbc2ba;
+    font-size: 14px;
+}
+.profile_page form .profile_form .p_city, .profile_page form .profile_form .p_number{
+    margin-top: 30px;
+}
+.signin_page form .signin_form select{
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid #75c5a3;
+    outline: none;
+    padding: 6px 0px;
+}
+.profile_page form .profile_form select{
+    width: 865px;
+    border: none;
+    border-bottom: 1px solid #75c5a3;
+    outline: none;
+    padding: 6px 0px;
+}
+.signin_page form .signin_form input[type="submit"],
+.profile_page form .profile_form input[type="submit"]{
+    padding: 10px 20px;
+    border: 1px solid #787a78;
+    color: #484e48;
+    background: #f9fffc;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 23em;
+    margin-top: 3em;
+}
+.profile_page form .profile_form input[type="submit"]{
+    margin-left: 17em;
+}
+.signin_page form .signin_form input[type="submit"]:hover,
+.profile_page form .profile_form input[type="submit"]:hover, .profile_page form .profile_form a:hover{
+    background: #f1fdf8;
+}
+.profile_page form .profile_form a{
+    padding: 10px 20px;
+    border: 1px solid #787a78;
+    color: #484e48;
+    background: #f9fffc;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* CHANGE_PASS PAGE DESIGN */
+.change_pass_page form .change_pass_form{
+    margin-left: 8em;
+    margin-top: 4em;
+}
+.change_pass_page form .change_pass_form input[type="password"]{
+    width: 600px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #75c5a3;
+    font-size: 14px;
+    padding: 6px 0px;
+    color: #5d615d;
+    margin-bottom: 30px;
+}
+
+
+.change_pass_page form .change_pass_form input[type="submit"]{
+    padding: 10px 20px;
+    border: 1px solid #787a78;
+    color: #484e48;
+    background: #f9fffc;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 1em;
+}
