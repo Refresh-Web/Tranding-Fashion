@@ -1,14 +1,7 @@
 <?php
     include 'inc/header.php';
-    include 'User.php';
 ?>
 
-<?php
-    $user = new User();
-    if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
-        $userlogin = $user->userlogin($_POST);
-    }
-?>
     <div class="login_page" id="login">
         <div class="main_login_page">
             <div class="login_page_left">
@@ -18,12 +11,6 @@
             <div class="login_page_right">
             <h2>Tranding Fashion</h2>
             <h2 class="tabs"><a href="#login">Login</a> / <a href="signin.php">Sign in</a></h2>
-
-<?php
-    if (isset($userlogin)) {
-        echo $userlogin;
-    }
-?>
 
                 <form action="" method="post">
                     <div class="login_form">
@@ -40,9 +27,11 @@
                         <input type="submit" name="login" value="Login">
                     </div>
                 </form>
+                
             </div>
         </div>
     </div>
+
 <?php
     include 'inc/footer.php';
 ?>
